@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mail;
@@ -118,7 +118,7 @@ namespace Trivia_Stage1.UI
         }
 
         //Private helper methodfs down here...
-       rivate void ClearScreenAndSetTitle(string title)
+       private void ClearScreenAndSetTitle(string title)
         {
             Console.Clear();
             Console.WriteLine($"{title,65}");
